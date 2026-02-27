@@ -1,0 +1,31 @@
+ESP32 RF SYSTEM BLOCK DIAGRAM
+
+TRANSMIT PATH:
+
+[MCU / Baseband]
+        ↓
+[Modulator]
+        ↓
+[RF Transmitter]
+        ↓
+[Power Amplifier (PA)]
+        ↓
+[RF Matching Network]
+        ↓
+[Antenna]
+
+-------------------------------------
+
+RECEIVE PATH:
+
+[Antenna]
+        ↓
+[RF Matching Network]
+        ↓
+[Low Noise Amplifier (LNA)]
+        ↓
+[RF Receiver]
+        ↓
+[Demodulator]
+        ↓
+[MCU / Baseband]
